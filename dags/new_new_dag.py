@@ -3,7 +3,7 @@ from airflow import DAG
 from airflow.decorators import task, dag
 
 @dag(schedule_interval='@daily', start_date=datetime(2022, 1, 1), catchup=False)
-def complex_taskflow():
+def complex_taskflow_newer():
 
     @task()
     def extract():
