@@ -41,4 +41,4 @@ def complex_taskflow_newer():
     branch_data['branch_a'] >> end1
     branch_data['branch_b'] >> end2
 
-example_dag = complex_taskflow()
+example_dag = complex_taskflow_newer()
